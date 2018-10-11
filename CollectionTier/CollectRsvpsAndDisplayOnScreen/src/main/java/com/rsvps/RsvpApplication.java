@@ -18,12 +18,12 @@ public class RsvpApplication {
 
     @Bean
     public ApplicationRunner initializeConnection(
-            RsvpsWebSocketHandler rsvpsWebSocketHandler) {
-        return args -> {
-            WebSocketClient rsvpsSocketClient = new StandardWebSocketClient();
+        RsvpsWebSocketHandler rsvpsWebSocketHandler) {
+           return args -> {
+               WebSocketClient rsvpsSocketClient = new StandardWebSocketClient();
 
-            rsvpsSocketClient.doHandshake(
-                    rsvpsWebSocketHandler, MEETUP_RSVPS_ENDPOINT);           
-        };
-    }
+               rsvpsSocketClient.doHandshake(
+                   rsvpsWebSocketHandler, MEETUP_RSVPS_ENDPOINT);           
+           };
+       }
 }
