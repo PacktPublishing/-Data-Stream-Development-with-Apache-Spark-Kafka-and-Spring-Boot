@@ -37,10 +37,9 @@ Section 4
    - Video 4.8  - AnalysisTier\SparkKafkaToStructuredStreamingToConsole
    - Video 4.9  - no code
    - Video 4.10 - AnalysisTier\SparkMLHouses\
-   - Video 4.11 - AnalysisTier\SparkMLOffline
-   TrainingSaveModelOnDisk
-              - AnalysisTier\SparkMLLoadModelFromFiskAndOnlineScoring
-              - AnalysisTier\SparkMLOnlineTrainingAndScoringRDD
+   - Video 4.11 - AnalysisTier\SparkMLOfflineTrainingSaveModelOnDisk\
+                - AnalysisTier\SparkMLLoadModelFromFiskAndOnlineScoring\
+                - AnalysisTier\SparkMLOnlineTrainingAndScoringRDD
    - Video 4.12 - AnalysisTier\SparkGraphXKickoff
 
 Section 5
