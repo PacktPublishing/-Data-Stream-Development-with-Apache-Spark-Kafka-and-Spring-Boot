@@ -36,7 +36,7 @@ Section 4
    - Video 4.7  - AnalysisTier\SparkKafkaToDatasetToMongoDB
    - Video 4.8  - AnalysisTier\SparkKafkaToStructuredStreamingToConsole
    - Video 4.9  - no code
-   - Video 4.10 - AnalysisTier\SparkMLHouses\
+   - Video 4.10 - AnalysisTier\SparkMLHouses
    - Video 4.11 - AnalysisTier\SparkMLOfflineTrainingSaveModelOnDisk\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkMLLoadModelFromFiskAndOnlineScoring\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkMLOnlineTrainingAndScoringRDD
