@@ -3,9 +3,9 @@
 
 Section 1
 ---------
-   Video 1.1  - no code
-   Video 1.2  - no code
-   Video 1.3  - no code
+   - Video 1.1  - no code
+   - Video 1.2  - no code
+   - Video 1.3  - no code
 
 Section 2
 ---------
