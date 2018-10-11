@@ -46,9 +46,9 @@ public class StreamingRsvpsDStreamCountWindow {
 
     private static final String KAFKA_BROKERS = "localhost:9092";
     private static final String KAFKA_OFFSET_RESET_TYPE = "latest";	
-	private static final String KAFKA_GROUP = "meetupGroup";
-	private static final String KAFKA_TOPIC = "meetupTopic";
-	private static final Collection<String> TOPICS = 
+    private static final String KAFKA_GROUP = "meetupGroup";
+    private static final String KAFKA_TOPIC = "meetupTopic";
+    private static final Collection<String> TOPICS = 
             Collections.unmodifiableList(Arrays.asList(KAFKA_TOPIC));	
 
     static {
@@ -63,7 +63,7 @@ public class StreamingRsvpsDStreamCountWindow {
         KAFKA_CONSUMER_PROPERTIES = Collections.unmodifiableMap(kafkaProperties);
     }
 		
-	private static final String MONGODB_OUTPUT_URI = "mongodb://localhost/meetupDB.rsvpscount";
+    private static final String MONGODB_OUTPUT_URI = "mongodb://localhost/meetupDB.rsvpscount";
         
     public static void main(String[] args) throws InterruptedException {
 
