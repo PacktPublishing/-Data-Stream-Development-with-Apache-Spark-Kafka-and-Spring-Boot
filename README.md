@@ -29,17 +29,17 @@ Section 4
    - Video 4.3  - no code
    - Video 4.4  - AnalysisTier\winutils.exe\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKickoffEmpty\
-                &nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKickoffWithKafkaUtilsAndMongoDBConnector
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKickoffWithKafkaUtilsAndMongoDBConnector
    - Video 4.5  - AnalysisTier\SparkKafkaToRDDToMongoDB\
    - Video 4.6  - AnalysisTier\SparkKafkaToDStreamToMongoDB\
-                - AnalysisTier\SparkKafkaToDStreamToMongoDBCountByWindow
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKafkaToDStreamToMongoDBCountByWindow
    - Video 4.7  - AnalysisTier\SparkKafkaToDatasetToMongoDB
    - Video 4.8  - AnalysisTier\SparkKafkaToStructuredStreamingToConsole
    - Video 4.9  - no code
    - Video 4.10 - AnalysisTier\SparkMLHouses\
    - Video 4.11 - AnalysisTier\SparkMLOfflineTrainingSaveModelOnDisk\
-                - AnalysisTier\SparkMLLoadModelFromFiskAndOnlineScoring\
-                - AnalysisTier\SparkMLOnlineTrainingAndScoringRDD
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkMLLoadModelFromFiskAndOnlineScoring\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkMLOnlineTrainingAndScoringRDD
    - Video 4.12 - AnalysisTier\SparkGraphXKickoff
 
 Section 5
@@ -49,8 +49,8 @@ Section 5
 
 Section 6
 ---------
-   - Video 6.1 - CollectionTier\SSL\*.*\
-               - MessagingQueingTier\SSL\*.*\
-               - MessagingQueingTier\OpenSSL\openssl-1.0.2j-fips-x86_64.rar\
-               - CollectionTier\CollectRsvpsAndSendToKafkaSSL\
-               - AnalysisTier\SparkKickoffSSL
+   - Video 6.1 - CollectionTier\SSL\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- MessagingQueingTier\SSL\*.*\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- MessagingQueingTier\OpenSSL\openssl-1.0.2j-fips-x86_64.rar\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- CollectionTier\CollectRsvpsAndSendToKafkaSSL\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKickoffSSL
