@@ -25,22 +25,22 @@ public class SparkKickoffSSL {
 
     private static final Map<String, Object> KAFKA_CONSUMER_PROPERTIES;
 	
-	private static final String KAFKA_BROKERS = "localhost:9095";
+    private static final String KAFKA_BROKERS = "localhost:9095";
     private static final String KAFKA_OFFSET_RESET_TYPE = "latest";
-	private static final String KAFKA_GROUP = "meetupGroup";
-	private static final String KAFKA_TOPIC = "meetupTopic";
-	private static final OffsetRange[] offsetRanges = 
+    private static final String KAFKA_GROUP = "meetupGroup";
+    private static final String KAFKA_TOPIC = "meetupTopic";
+    private static final OffsetRange[] offsetRanges = 
         // topic, partition, inclusive starting offset, exclusive ending offset
         { OffsetRange.create(KAFKA_TOPIC, 0, 0, 100) };
 
-	private static final String SECURITY_PROTOCOL = "SSL";	
+    private static final String SECURITY_PROTOCOL = "SSL";	
     private static final String TRUSTSTORE_LOCATION = 
         "D:\\streaming\\MessagingQueingTier\\SSL\\kafka.client.truststore.jks"; 
     private static final String KEYSTORE_LOCATION = 
         "D:\\streaming\\MessagingQueingTier\\SSL\\kafka.client.truststore.jks"; 
-	private static final String TRUSTSTORE_PASSWORD = "clientpass";
-	private static final String KEYSTORE_PASSWORD = "clientpass";
-	private static final String SSL_KEY_PASSWORD = "clientpass";
+    private static final String TRUSTSTORE_PASSWORD = "clientpass";
+    private static final String KEYSTORE_PASSWORD = "clientpass";
+    private static final String SSL_KEY_PASSWORD = "clientpass";
 		
     static {
         Map<String, Object> kafkaProperties = new HashMap<>();
@@ -50,7 +50,7 @@ public class SparkKickoffSSL {
         kafkaProperties.put(ConsumerConfig.GROUP_ID_CONFIG, KAFKA_GROUP);
         kafkaProperties.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, KAFKA_OFFSET_RESET_TYPE);
         kafkaProperties.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, true);
-		kafkaProperties.put("security.protocol", SECURITY_PROTOCOL);
+        kafkaProperties.put("security.protocol", SECURITY_PROTOCOL);
         kafkaProperties.put("ssl.truststore.location", TRUSTSTORE_LOCATION);
         kafkaProperties.put("ssl.truststore.password", TRUSTSTORE_PASSWORD);
         kafkaProperties.put("ssl.keystore.location", KEYSTORE_LOCATION);
@@ -60,7 +60,7 @@ public class SparkKickoffSSL {
         KAFKA_CONSUMER_PROPERTIES = Collections.unmodifiableMap(kafkaProperties);
     }
 	
-	private static final String MONGODB_OUTPUT_URI = "mongodb://localhost/meetupDB.rsvps";
+    private static final String MONGODB_OUTPUT_URI = "mongodb://localhost/meetupDB.rsvps";
         
     public static void main(String[] args) throws InterruptedException {
 
