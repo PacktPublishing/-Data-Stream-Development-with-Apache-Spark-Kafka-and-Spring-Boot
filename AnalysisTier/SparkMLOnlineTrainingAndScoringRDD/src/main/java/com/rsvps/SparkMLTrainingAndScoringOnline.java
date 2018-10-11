@@ -101,7 +101,7 @@ public class SparkMLTrainingAndScoringOnline {
                         JSONObject json = (JSONObject)jsonParser.parse(e);
 
                         String result = "(" 
-			    + (String.valueOf(json.get("response")).equals("yes") ? "1.0,[":"0.0,[")
+                            + (String.valueOf(json.get("response")).equals("yes") ? "1.0,[":"0.0,[") 
                             + ((JSONObject)json.get("group")).get("group_lat") + "," 
                             + ((JSONObject)json.get("group")).get("group_lon")
                             + "])";
