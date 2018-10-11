@@ -27,17 +27,18 @@ Section 4
    - Video 4.1  - no code
    - Video 4.2  - no code
    - Video 4.3  - no code
-   - Video 4.4  -- AnalysisTier\winutils.exe
-                -- AnalysisTier\SparkKickoffEmpty
-                -- AnalysisTier\SparkKickoffWithKafkaUtilsAndMongoDBConnector
-   - Video 4.5  - AnalysisTier\SparkKafkaToRDDToMongoDB
-   - Video 4.6  - AnalysisTier\SparkKafkaToDStreamToMongoDB
+   - Video 4.4  - AnalysisTier\winutils.exe\
+                - AnalysisTier\SparkKickoffEmpty\
+                - AnalysisTier\SparkKickoffWithKafkaUtilsAndMongoDBConnector
+   - Video 4.5  - AnalysisTier\SparkKafkaToRDDToMongoDB\
+   - Video 4.6  - AnalysisTier\SparkKafkaToDStreamToMongoDB\
                 - AnalysisTier\SparkKafkaToDStreamToMongoDBCountByWindow
    - Video 4.7  - AnalysisTier\SparkKafkaToDatasetToMongoDB
    - Video 4.8  - AnalysisTier\SparkKafkaToStructuredStreamingToConsole
    - Video 4.9  - no code
-   - Video 4.10 - AnalysisTier\SparkMLHouses
-   - Video 4.11 - AnalysisTier\SparkMLOfflineTrainingSaveModelOnDisk
+   - Video 4.10 - AnalysisTier\SparkMLHouses\
+   - Video 4.11 - AnalysisTier\SparkMLOffline
+   TrainingSaveModelOnDisk
               - AnalysisTier\SparkMLLoadModelFromFiskAndOnlineScoring
               - AnalysisTier\SparkMLOnlineTrainingAndScoringRDD
    - Video 4.12 - AnalysisTier\SparkGraphXKickoff
