@@ -48,12 +48,12 @@ public class SparkMLTrainingAndScoringOnline {
 
         private static final Map<String, Object> KAFKA_CONSUMER_PROPERTIES;
 		
-		private static final String KAFKA_BROKERS = "localhost:9092";
+        private static final String KAFKA_BROKERS = "localhost:9092";
         private static final String KAFKA_OFFSET_RESET_TYPE = "latest";
-	    private static final String KAFKA_GROUP = "meetupGroup";
-	    private static final String KAFKA_TOPIC = "meetupTopic";	
-		private static final Collection<String> TOPICS = 
-		    Collections.unmodifiableList(Arrays.asList(KAFKA_TOPIC));		
+        private static final String KAFKA_GROUP = "meetupGroup";
+        private static final String KAFKA_TOPIC = "meetupTopic";	
+        private static final Collection<String> TOPICS = 
+	    Collections.unmodifiableList(Arrays.asList(KAFKA_TOPIC));		
 
         static {
                 Map<String, Object> kafkaProperties = new HashMap<>();
@@ -72,7 +72,7 @@ public class SparkMLTrainingAndScoringOnline {
                 System.setProperty("hadoop.home.dir", HADOOP_HOME_DIR_VALUE);
 
                 final SparkConf conf = new SparkConf()
-				    .setMaster(RUN_LOCAL_WITH_AVAILABLE_CORES)
+                    .setMaster(RUN_LOCAL_WITH_AVAILABLE_CORES)
                     .setAppName(APPLICATION_NAME)
                     .set("spark.sql.caseSensitive", CASE_SENSITIVE);                               
 
@@ -80,14 +80,14 @@ public class SparkMLTrainingAndScoringOnline {
                     new Duration(BATCH_DURATION_INTERVAL_MS));
                 
                 JavaInputDStream<ConsumerRecord<String, String>> meetupStream = 
-				    KafkaUtils.createDirectStream(
+                    KafkaUtils.createDirectStream(
                                 streamingContext, 
-								LocationStrategies.PreferConsistent(),
+				LocationStrategies.PreferConsistent(),
                                 ConsumerStrategies.<String, String>Subscribe(TOPICS, KAFKA_CONSUMER_PROPERTIES)
-					);
+                    );
 
                 JavaDStream<String> meetupStreamValues = 
-				    meetupStream.map(v -> {                     
+		    meetupStream.map(v -> {                     
                         return v.value();
                     });
 
@@ -101,10 +101,10 @@ public class SparkMLTrainingAndScoringOnline {
                         JSONObject json = (JSONObject)jsonParser.parse(e);
 
                         String result = "(" 
-						    + (String.valueOf(json.get("response")).equals("yes") ? "1.0,[":"0.0,[")
+			    + (String.valueOf(json.get("response")).equals("yes") ? "1.0,[":"0.0,[")
                             + ((JSONObject)json.get("group")).get("group_lat") + "," 
                             + ((JSONObject)json.get("group")).get("group_lon")
-							+ "])";
+                            + "])";
                         
                         return result;
                 });
@@ -114,13 +114,13 @@ public class SparkMLTrainingAndScoringOnline {
                 JavaDStream<LabeledPoint> labeledPoints = trainData.map(LabeledPoint::parse);
         
                 StreamingLogisticRegressionWithSGD streamingLogisticRegressionWithSGD 
-				    = new StreamingLogisticRegressionWithSGD()
+			= new StreamingLogisticRegressionWithSGD()
                             .setInitialWeights(Vectors.zeros(2));
 
                 streamingLogisticRegressionWithSGD.trainOn(labeledPoints);
 
                 JavaPairDStream<Double, Vector> values = 
-				    labeledPoints.mapToPair(f -> new Tuple2<>(f.label(), f.features()));
+			labeledPoints.mapToPair(f -> new Tuple2<>(f.label(), f.features()));
 
                 streamingLogisticRegressionWithSGD.predictOnValues(values).print();
 
@@ -134,7 +134,6 @@ public class SparkMLTrainingAndScoringOnline {
 
                 streamingContext.start();
                 streamingContext.awaitTermination();
-
         }
 }
 
