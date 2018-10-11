@@ -56,22 +56,22 @@ public class SparkGraphXKickoff {
         ClassTag<String> stringTag = scala.reflect.ClassTag$.MODULE$.apply(String.class);
 		
         Graph<String, String> graph = Graph.apply(
-		    vertexRDD.rdd(), 
-			edgeRDD.rdd(), 
-			"", 
+            vertexRDD.rdd(), 
+            edgeRDD.rdd(), 
+            "", 
             StorageLevel.MEMORY_ONLY(), 
 			StorageLevel.MEMORY_ONLY(), 
 			stringTag, 
 			stringTag
-		);    
+            );    
 
         //apply specific algorithms, such as PageRank
 
         graph.vertices()
-		     .saveAsTextFile(VERTICES_FOLDER_PATH);        
+            .saveAsTextFile(VERTICES_FOLDER_PATH);        
 			 
         graph.edges()
-		     .saveAsTextFile(EDGES_FOLDER_PATH);        
+	    .saveAsTextFile(EDGES_FOLDER_PATH);        
 
         javaSparkContext.close();
     }
