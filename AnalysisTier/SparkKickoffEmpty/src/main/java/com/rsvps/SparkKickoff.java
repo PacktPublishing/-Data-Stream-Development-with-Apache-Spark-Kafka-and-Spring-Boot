@@ -14,7 +14,7 @@ public class SparkKickoff {
         System.setProperty("hadoop.home.dir", HADOOP_HOME_DIR_VALUE);
 
         final SparkConf conf = new SparkConf()
-		        .setAppName(APPLICATION_NAME)
+		.setAppName(APPLICATION_NAME)
                 .setMaster(RUN_LOCAL_WITH_AVAILABLE_CORES);
 
         JavaSparkContext sparkContext = new JavaSparkContext(conf);    
