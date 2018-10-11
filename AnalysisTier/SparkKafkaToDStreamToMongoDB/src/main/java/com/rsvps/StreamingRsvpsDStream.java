@@ -35,15 +35,15 @@ public class StreamingRsvpsDStream {
     private static final String APPLICATION_NAME = "Streaming Rsvps DStream";
     private static final String HADOOP_HOME_DIR_VALUE = "C:/winutils";    
     private static final String RUN_LOCAL_WITH_AVAILABLE_CORES = "local[*]";    
-	private static final int BATCH_DURATION_INTERVAL_MS = 5000;	
+    private static final int BATCH_DURATION_INTERVAL_MS = 5000;	
 
     private static final Map<String, Object> KAFKA_CONSUMER_PROPERTIES;    
     
     private static final String KAFKA_BROKERS = "localhost:9092";
     private static final String KAFKA_OFFSET_RESET_TYPE = "latest";
-	private static final String KAFKA_GROUP = "meetupGroup";
-	private static final String KAFKA_TOPIC = "meetupTopic";
-	private static final Collection<String> TOPICS = 
+    private static final String KAFKA_GROUP = "meetupGroup";
+    private static final String KAFKA_TOPIC = "meetupTopic";
+    private static final Collection<String> TOPICS = 
             Collections.unmodifiableList(Arrays.asList(KAFKA_TOPIC));
 			
     static {
@@ -58,7 +58,7 @@ public class StreamingRsvpsDStream {
         KAFKA_CONSUMER_PROPERTIES = Collections.unmodifiableMap(kafkaProperties);
     }
 	
-	private static final String MONGODB_OUTPUT_URI = "mongodb://localhost/meetupDB.rsvpsguests";
+    private static final String MONGODB_OUTPUT_URI = "mongodb://localhost/meetupDB.rsvpsguests";
         
     public static void main(String[] args) throws InterruptedException {
 
