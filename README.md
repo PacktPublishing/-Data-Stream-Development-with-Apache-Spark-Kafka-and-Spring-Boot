@@ -27,9 +27,9 @@ Section 4
    - Video 4.1  - no code
    - Video 4.2  - no code
    - Video 4.3  - no code
-   - Video 4.4  - AnalysisTier\winutils.exe
-                - AnalysisTier\SparkKickoffEmpty
-                - AnalysisTier\SparkKickoffWithKafkaUtilsAndMongoDBConnector
+   - Video 4.4  -- AnalysisTier\winutils.exe
+                -- AnalysisTier\SparkKickoffEmpty
+                -- AnalysisTier\SparkKickoffWithKafkaUtilsAndMongoDBConnector
    - Video 4.5  - AnalysisTier\SparkKafkaToRDDToMongoDB
    - Video 4.6  - AnalysisTier\SparkKafkaToDStreamToMongoDB
                 - AnalysisTier\SparkKafkaToDStreamToMongoDBCountByWindow
