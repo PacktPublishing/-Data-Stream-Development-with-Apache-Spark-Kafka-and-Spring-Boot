@@ -49,8 +49,8 @@ Section 5
 
 Section 6
 ---------
-   - Video 6.1 - CollectionTier\SSL\*.*
-               - MessagingQueingTier\SSL\*.*
-               - MessagingQueingTier\OpenSSL\openssl-1.0.2j-fips-x86_64.rar
-               - CollectionTier\CollectRsvpsAndSendToKafkaSSL   
+   - Video 6.1 - CollectionTier\SSL\*.*\
+               - MessagingQueingTier\SSL\*.*\
+               - MessagingQueingTier\OpenSSL\openssl-1.0.2j-fips-x86_64.rar\
+               - CollectionTier\CollectRsvpsAndSendToKafkaSSL\
                - AnalysisTier\SparkKickoffSSL
