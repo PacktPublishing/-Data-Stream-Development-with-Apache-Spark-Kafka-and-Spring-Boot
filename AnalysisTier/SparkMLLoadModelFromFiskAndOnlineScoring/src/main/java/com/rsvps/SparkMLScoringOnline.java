@@ -110,8 +110,8 @@ public class SparkMLScoringOnline {
         Dataset<Row> preparedDF = filteredDF.select(
 		        col("rsvp.group.group_city"),
 		        col("rsvp.group.group_lat"), col("rsvp.group.group_lon"), 
-				col("rsvp.response")
-		);
+			col("rsvp.response")
+	);
 				                
         preparedDF.printSchema();
      
