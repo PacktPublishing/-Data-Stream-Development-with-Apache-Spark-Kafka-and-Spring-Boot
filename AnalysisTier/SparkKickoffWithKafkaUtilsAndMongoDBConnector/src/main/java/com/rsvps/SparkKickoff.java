@@ -20,10 +20,10 @@ public class SparkKickoff {
     
     private static final Map<String, Object> KAFKA_CONSUMER_PROPERTIES;
 	
-	private static final String KAFKA_BROKERS = "localhost:9092";
+    private static final String KAFKA_BROKERS = "localhost:9092";
     private static final String KAFKA_OFFSET_RESET_TYPE = "latest";
-	private static final String KAFKA_GROUP = "meetupGroup";
-	private static final String KAFKA_TOPIC = "meetupTopic";
+    private static final String KAFKA_GROUP = "meetupGroup";
+    private static final String KAFKA_TOPIC = "meetupTopic";
 	
     static {
         Map<String, Object> kafkaProperties = new HashMap<>();
