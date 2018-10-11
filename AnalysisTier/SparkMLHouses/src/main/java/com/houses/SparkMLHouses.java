@@ -40,21 +40,21 @@ public class SparkMLHouses {
                 // * the schema can be written on disk, and read from disk
                 // * the schema is not mandatory to be complete, it can contain only the needed fields    
                 StructType HOUSES_SCHEMA = 
-				    new StructType()
-					    .add("House", LongType, true)
-						.add("Taxes", LongType, true)
-                        .add("Bedrooms", LongType, true)
-						.add("Baths", FloatType, true)
-                        .add("Quadrant", LongType, true)
-						.add("NW", StringType, true)
-                        .add("Price($)", LongType, false)
-						.add("Size(sqft)", LongType, false)
-                        .add("lot", LongType, true);
+                       new StructType()
+                           .add("House", LongType, true)
+                           .add("Taxes", LongType, true)
+                           .add("Bedrooms", LongType, true)
+                           .add("Baths", FloatType, true)
+                           .add("Quadrant", LongType, true)
+                           .add("NW", StringType, true)
+                           .add("Price($)", LongType, false)
+                           .add("Size(sqft)", LongType, false)
+                           .add("lot", LongType, true);
 
                 final SparkConf conf = new SparkConf()
-				    .setMaster(RUN_LOCAL_WITH_AVAILABLE_CORES)
+                    .setMaster(RUN_LOCAL_WITH_AVAILABLE_CORES)
                     .setAppName(APPLICATION_NAME)
-					.set("spark.sql.caseSensitive", CASE_SENSITIVE);
+                    .set("spark.sql.caseSensitive", CASE_SENSITIVE);
 
                 SparkSession sparkSession = SparkSession.builder()
                     .config(conf)
