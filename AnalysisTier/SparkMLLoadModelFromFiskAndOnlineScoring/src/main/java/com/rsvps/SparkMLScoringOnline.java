@@ -19,23 +19,23 @@ import org.apache.spark.sql.types.StructType;
 
 public class SparkMLScoringOnline {
 		
-	private static final String HADOOP_HOME_DIR_VALUE = "C:/winutils";
+    private static final String HADOOP_HOME_DIR_VALUE = "C:/winutils";
 
-        private static final String RUN_LOCAL_WITH_AVAILABLE_CORES = "local[*]";
-        private static final String APPLICATION_NAME = "Spark ML Scoring Online";
-        private static final String CASE_SENSITIVE = "false";
+    private static final String RUN_LOCAL_WITH_AVAILABLE_CORES = "local[*]";
+    private static final String APPLICATION_NAME = "Spark ML Scoring Online";
+    private static final String CASE_SENSITIVE = "false";
 		
-        private static final String MODEL_FOLDER_PATH = "D:\\streaming\\AnalysisTier\\ml\\model";
-        private static final String RESULT_FOLDER_PATH = 
+    private static final String MODEL_FOLDER_PATH = "D:\\streaming\\AnalysisTier\\ml\\model";
+    private static final String RESULT_FOLDER_PATH = 
             "D:\\streaming\\AnalysisTier\\ml\\results";
 	
-	private static final String KAFKA_FORMAT = "kafka";
-	private static final String KAFKA_BROKERS = "localhost:9092";
-	private static final String KAFKA_TOPIC = "meetupTopic";
+    private static final String KAFKA_FORMAT = "kafka";
+    private static final String KAFKA_BROKERS = "localhost:9092";
+    private static final String KAFKA_TOPIC = "meetupTopic";
 	
-	private static final String JSON_FORMAT = "json";
-	private static final String CHECKPOINT_LOCATION = "D://rsvpml";
-	private static final String QUERY_INTERVAL_SECONDS = "30 seconds";
+    private static final String JSON_FORMAT = "json";
+    private static final String CHECKPOINT_LOCATION = "D://rsvpml";
+    private static final String QUERY_INTERVAL_SECONDS = "30 seconds";
 
     public static void main(String[] args) throws InterruptedException, StreamingQueryException {
    
