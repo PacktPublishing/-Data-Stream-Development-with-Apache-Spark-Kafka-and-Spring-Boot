@@ -56,7 +56,7 @@ public class SparkRDD {
         JavaSparkContext sparkContext = new JavaSparkContext(conf);
 
         JavaRDD<ConsumerRecord<String, String>> rdd = 
-		    KafkaUtils.createRDD(sparkContext, KAFKA_CONSUMER_PROPERTIES,
+	    KafkaUtils.createRDD(sparkContext, KAFKA_CONSUMER_PROPERTIES,
                 offsetRange, LocationStrategies.PreferConsistent());
        
         MongoSpark.save(rdd.map(r -> Document.parse(r.value())));
