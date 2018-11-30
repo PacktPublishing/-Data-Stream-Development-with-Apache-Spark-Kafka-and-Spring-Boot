@@ -1,56 +1,34 @@
-# -Data-Stream-Development-with-Apache-Spark-Kafka-and-Spring-Boot
- Data Stream Development with Apache Spark, Kafka and Spring Boot by Packt Publishing
+# Data Stream Development with Apache Spark, Kafka, and Spring Boot [Video]
+This is the code repository for [Data Stream Development with Apache Spark, Kafka, and Spring Boot [Video]](https://www.packtpub.com/application-development/data-stream-development-apache-spark-kafka-and-spring-boot-video?utm_source=github&utm_medium=repository&utm_campaign=9781789539585), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+## About the Video Course
+Learn to build a data stream pipeline using Apache Spark and Kafka from scratch. Start with a blueprint architecture: developing a completely functional data streaming pipeline. With live coding sessions, get hands-on with architecting every tier of the pipeline.
 
-Section 1
----------
-   - Video 1.1  - no code
-   - Video 1.2  - no code
-   - Video 1.3  - no code
+<H2>What You Will Learn</H2>
+<DIV class=book-info-will-learn-text>
+<UL>
+<LI>Attain a solid foundation in the most powerful and versatile technologies involved in data streaming: Apache Spark and Apache Kafka 
+<LI>Form a robust and clean architecture for a data streaming pipeline 
+<LI>Implement the correct tools to bring your data streaming architecture to life 
+<LI>Isolate the most problematic tradeoff for each tier involved in a data streaming pipeline 
+<LI>Query, analyze, and apply machine learning algorithms to collected data 
+<LI>Display analyzed pipeline data via Google Maps on your web browser 
+<LI>Discover and resolve difficulties in scaling and securing data streaming applications </LI></UL></DIV>
 
-Section 2
----------
-   - Video 2.1  - no code
-   - Video 2.2  - CollectionTier\CollectRsvpsAndDisplayOnScreen
-   - Video 2.3  - no code   
-   - Video 2.4    - no code
-   - Video 2.5  - CollectionTier\CollectRsvpsAndSendToKafka  
+## Instructions and Navigation
+### Assumed Knowledge
+To fully benefit from the coverage included in this course, you will need:<br/>
+No prior knowledge required
+### Technical Requirements
+This course has the following software requirements:<br/>
+Java 8
+OpenSSL installed (optional)
+Java compatible IDE
 
-Section 3
----------
-   - Video 3.1  - no code
-   - Video 3.2  - no code
-   - Video 3.3  - DataAccessTier\MongoDBReactiveWebClientSSE
-   - Video 3.4  - DataAccessTier\MongoDBReactiveWebClientSSE
 
-Section 4
----------
-   - Video 4.1  - no code
-   - Video 4.2  - no code
-   - Video 4.3  - no code
-   - Video 4.4  - AnalysisTier\winutils.exe\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKickoffEmpty\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKickoffWithKafkaUtilsAndMongoDBConnector
-   - Video 4.5  - AnalysisTier\SparkKafkaToRDDToMongoDB
-   - Video 4.6  - AnalysisTier\SparkKafkaToDStreamToMongoDB\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKafkaToDStreamToMongoDBCountByWindow
-   - Video 4.7  - AnalysisTier\SparkKafkaToDatasetToMongoDB
-   - Video 4.8  - AnalysisTier\SparkKafkaToStructuredStreamingToConsole
-   - Video 4.9  - no code
-   - Video 4.10 - AnalysisTier\SparkMLHouses
-   - Video 4.11 - AnalysisTier\SparkMLOfflineTrainingSaveModelOnDisk\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkMLLoadModelFromFiskAndOnlineScoring\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkMLOnlineTrainingAndScoringRDD
-   - Video 4.12 - AnalysisTier\SparkGraphXKickoff
+## Related Products
+* [Serverless Deep Learning with TensorFlow and AWS Lambda [Video]](https://www.packtpub.com/big-data-and-business-intelligence/serverless-deep-learning-tensorflow-and-aws-lambda-video?utm_source=github&utm_medium=repository&utm_campaign=9781789618679)
 
-Section 5
----------
-   - Video 5.1 - CollectionTier\CollectRsvpsAndSendToKafkaHML
-   - Video 5.2 - no code
+* [Apache Spark: Tips, Tricks, & Techniques [Video]](https://www.packtpub.com/application-development/apache-spark-tips-tricks-techniques-video?utm_source=github&utm_medium=repository&utm_campaign=9781789801125)
 
-Section 6
----------
-   - Video 6.1 - CollectionTier\SSL\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- MessagingQueingTier\SSL\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- MessagingQueingTier\OpenSSL\openssl-1.0.2j-fips-x86_64.rar\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- CollectionTier\CollectRsvpsAndSendToKafkaSSL\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- AnalysisTier\SparkKickoffSSL
+* [Concurrent and Distributed Computing with Python [Video]](https://www.packtpub.com/application-development/concurrent-and-distributed-computing-python-video?utm_source=github&utm_medium=repository&utm_campaign=9781788996020)
+
