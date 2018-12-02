@@ -20,9 +20,9 @@ To fully benefit from the coverage included in this course, you will need:<br/>
 No prior knowledge required
 ### Technical Requirements
 This course has the following software requirements:<br/>
-Java 8
-OpenSSL installed (optional)
-Java compatible IDE
+- Java 8
+- OpenSSL installed (optional)
+- Java compatible IDE (e.g., Visual Studio Code, NetBeans, etc)
 
 
 ## Related Products
