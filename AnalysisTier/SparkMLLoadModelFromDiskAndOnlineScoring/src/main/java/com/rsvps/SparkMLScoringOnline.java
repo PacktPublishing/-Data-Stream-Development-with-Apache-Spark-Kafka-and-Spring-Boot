@@ -25,9 +25,10 @@ public class SparkMLScoringOnline {
     private static final String APPLICATION_NAME = "Spark ML Scoring Online";
     private static final String CASE_SENSITIVE = "false";
 		
-    private static final String MODEL_FOLDER_PATH = "D:\\streaming\\AnalysisTier\\ml\\model";
-    private static final String RESULT_FOLDER_PATH = 
-            "D:\\streaming\\AnalysisTier\\ml\\results";
+    private static final String MODEL_FOLDER_PATH 
+	    = "D:\\streaming\\AnalysisTier\\ml\\model";
+    private static final String RESULT_FOLDER_PATH 
+	    = "D:\\streaming\\AnalysisTier\\ml\\results";
 	
     private static final String KAFKA_FORMAT = "kafka";
     private static final String KAFKA_BROKERS = "localhost:9092";
