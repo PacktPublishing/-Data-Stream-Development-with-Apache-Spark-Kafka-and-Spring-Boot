@@ -1,5 +1,8 @@
 # Data Stream Development with Apache Spark, Kafka, and Spring Boot [Video]
 This is the code repository for [Data Stream Development with Apache Spark, Kafka, and Spring Boot [Video]](https://www.packtpub.com/application-development/data-stream-development-apache-spark-kafka-and-spring-boot-video?utm_source=github&utm_medium=repository&utm_campaign=9781789539585), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+
+[For video and source code matching please check the wiki page](https://github.com/PacktPublishing/-Data-Stream-Development-with-Apache-Spark-Kafka-and-Spring-Boot/wiki/Source-code)
+
 ## About the Video Course
 Learn to build a data stream pipeline using Apache Spark and Kafka from scratch. Start with a blueprint architecture: developing a completely functional data streaming pipeline. With live coding sessions, get hands-on with architecting every tier of the pipeline.
 
@@ -24,6 +27,7 @@ This course has the following software requirements:<br/>
 - OpenSSL installed (optional)
 - Java compatible IDE (e.g., Visual Studio Code, NetBeans, etc)
 
+[For video and source code matching please check the wiki page](https://github.com/PacktPublishing/-Data-Stream-Development-with-Apache-Spark-Kafka-and-Spring-Boot/wiki/Source-code)
 
 ## Related Products
 * [Serverless Deep Learning with TensorFlow and AWS Lambda [Video]](https://www.packtpub.com/big-data-and-business-intelligence/serverless-deep-learning-tensorflow-and-aws-lambda-video?utm_source=github&utm_medium=repository&utm_campaign=9781789618679)
