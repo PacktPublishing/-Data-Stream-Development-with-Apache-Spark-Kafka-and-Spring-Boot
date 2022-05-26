@@ -1,3 +1,7 @@
+## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/V11394?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
+-----
+For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
+
 # Data Stream Development with Apache Spark, Kafka, and Spring Boot [Video]
 This is the code repository for [Data Stream Development with Apache Spark, Kafka, and Spring Boot [Video]](https://www.packtpub.com/application-development/data-stream-development-apache-spark-kafka-and-spring-boot-video?utm_source=github&utm_medium=repository&utm_campaign=9781789539585), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 
